@@ -6,7 +6,7 @@ Includes code to build the custom data transformation pipeline used to clean the
 
 # Training
 Includes code that trains the SOM models based on the required data. After training, the weights are stored. Then SOM mappings are generated and they are also stored.
-SOM code is taken from the forked Minisom repository credited to . However a number of bugs in the training and parameter update algorithms were discovered which were then fixed.
+SOM code is taken from the forked Minisom repository credited to JustGlowing. However in scaling the SOM, a number of bugs in the training and parameter update algorithms were discovered and these were then fixed by me.
 
 # Mapping
 Includes code that creates customized labels to be applied to the trained SOM mappings that have already been stored.
